@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="293dp"
+        android:layout_height="35dp"
+        android:layout_weight="0.02"
+        android:text="Location DB (Lat/Lon/Alt)"
+        android:textSize="25dp"
+        android:layout_marginRight="8dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintHorizontal_bias="0.506"
+        android:layout_marginBottom="9dp"
+        ads:layout_constraintBottom_toTopOf="@+id/dbView" />
+
+    <TextView
+        android:id="@+id/dbView"
+        android:layout_width="354dp"
+        android:layout_height="187dp"
+        android:layout_weight="0.44"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:scrollbars="vertical"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="246dp"
+        ads:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        ads:layout_constraintVertical_bias="0.984"
+        android:layout_marginRight="8dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        ads:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="192dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="0.08"
+        android:gravity="bottom"
+        android:text="Current Location"
+        android:textSize="25dp"
+        ads:layout_constraintLeft_toLeftOf="parent"
+        ads:layout_constraintRight_toRightOf="parent"
+        tools:text="Current Location"
+        ads:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/curView"
+        android:layout_width="352dp"
+        android:layout_height="87dp"
+        android:layout_weight="0.18"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        ads:layout_constraintVertical_bias="0.827"
+        ads:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        ads:layout_constraintLeft_toLeftOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/Ad_DataView"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3302287697444700/8031239127"
+        android:layout_marginTop="8dp"
+        ads:layout_constraintTop_toBottomOf="@+id/curView"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        ads:layout_constraintVertical_bias="1.0"
+        android:layout_marginRight="8dp"
+        ads:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        ads:layout_constraintLeft_toLeftOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+</android.support.constraint.ConstraintLayout>

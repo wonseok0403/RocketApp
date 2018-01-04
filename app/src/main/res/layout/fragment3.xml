@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/button_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check LOCATION!"
+        android:textSize="25dp"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:text="Location DB (Lat/Lon/Alt)"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/dbView"
+        android:layout_width="402dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.44"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:gravity="bottom"
+        android:text="TextView"
+        android:textSize="25dp"
+        tools:text="Current Location" />
+
+    <TextView
+        android:id="@+id/curView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <Button
+        android:id="@+id/button_connectDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. CONNECT DB"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button_eraseDB"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="2. ERASE DB DATA"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button_GPSSending"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="3. GPS SENDING"
+        android:textSize="35dp" />
+
+
+
+            <TextView
+                android:id="@+id/textView_log"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:scrollbars="vertical"
+                android:textSize="25dp" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark">
+
+    <EditText
+        android:id="@+id/editText_chat"
+        android:layout_width="267dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Press any key to continue..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textView_chattingbox"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        app:layout_constraintRight_toLeftOf="@+id/button_send" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="86dp"
+        android:layout_height="46dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:text="전송"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.978"
+        app:layout_constraintBottom_toTopOf="@+id/textView_chattingbox" />
+
+    <TextView
+        android:id="@+id/textView_chattingbox"
+        android:layout_width="331dp"
+        android:layout_height="371dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:scrollbars="vertical" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_Rocket"
+        android:title="로켓 발사체"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_Member"
+        android:title="투지 회원단"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/menu_Old"
+        android:title="투지 졸업생"
+        app:showAsAction="withText" />
+</menu>

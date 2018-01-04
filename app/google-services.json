@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "795843608250",
+    "firebase_url": "https://tusirocket.firebaseio.com",
+    "project_id": "tusirocket",
+    "storage_bucket": "tusirocket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795843608250:android:0f9fe582ef8793a0",
+        "android_client_info": {
+          "package_name": "org.androidtown.tusirocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795843608250-lvtviodu6udq8vo7s71643o6to2l5qgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi9H7mTtOt56fEmHAf5xQy4_Q7oi6S-yQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
