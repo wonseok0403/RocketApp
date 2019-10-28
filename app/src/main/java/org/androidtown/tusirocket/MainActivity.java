@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     public static final int REQUEST_CODE_MEMBER_MENU = 102;
     private static final int RC_SIGN_IN = 10;
     int SelectedMenu = 1;
-    String ROCKET_USER = "wonseok786@gmail.com";
+    String ROCKET_USER = "mon111664@gmail.com";
     boolean isUser = false;
     SignInButton button;
     Button connect_button;

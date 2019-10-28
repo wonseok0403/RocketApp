@@ -194,18 +194,6 @@ public class member_Fragment1 extends Fragment implements OnMapReadyCallback, Ac
         });
 
         View rootView = inflater.inflate(R.layout.member_fragment1, container, false);
-        //JUL 29
-        MobileAds.initialize(getContext(), "ca-app-pub-3302287697444700~9323305348");
-
-        mAdView = (AdView) rootView.findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        if (adRequest == null) {
-            Log.d("wonseok", "no ad");
-        }
-        mAdView.loadAd(adRequest);
-
-
-        //AD MOB ADDED
         mMapView = (MapView) rootView.findViewById(R.id.mapView);
         mMapView.onCreate(savedInstanceState);
         mMapView.onResume();

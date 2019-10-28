@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TUSIRocket.iml" filepath="$PROJECT_DIR$/TUSIRocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RocketApp.iml" filepath="$PROJECT_DIR$/RocketApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/RocketApp-app.iml" filepath="$PROJECT_DIR$/app/RocketApp-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
